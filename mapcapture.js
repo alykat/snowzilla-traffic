@@ -2,7 +2,7 @@ var intervalLength = 300000;
 
 function screenCap() {
 	loadMap();
-	loadRadar();
+	// loadRadar();
 }
 
 function loadMap() {
@@ -13,13 +13,17 @@ function loadMap() {
 	  height: 1200
 	};
 
-	page.open('https://www.google.com/maps/@38.6337794,-76.8123652,6z/data=!5m1!1e1', function() {
-		map_wait();
+	page.open('https://www.google.com/maps/@38.6337794,-76.8123652,6z/data=!5m1!1e1', function(success) {
+		var timestamp = (new Date()).toLocaleString();
+
+		console.log(success, timestamp);
+		if(success) {
+			map_wait(timestamp);
+		}
 	});
 
-	function map_wait() {
+	function map_wait(timestamp) {
 		setTimeout(function() {
-			var timestamp = (new Date()).toLocaleString();
 			page.render('screengrabs/map-' + timestamp + '.png');
 		}, 5000);
 	}
