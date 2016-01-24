@@ -52,4 +52,4 @@ I used [ImageMagick](http://www.imagemagick.org/script/convert.php) to turn my f
 convert -background white -alpha remove -layers optimize-plus -delay 15x60 -resize 800 *.png -loop 0 filmstrip.gif
 ```
 
-Then I brought the GIF into PhotoShop to crop out the Google Maps controls. I probably could have also done this with ImageMagick, but this was the speediest way I knew off the top of my head to it.
+Then I brought the GIF into PhotoShop to crop out the Google Maps controls. I probably also could have done this with ImageMagick, but PhotoShop was the speediest/simplest way to do it at the time.
