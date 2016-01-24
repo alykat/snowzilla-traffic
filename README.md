@@ -1,6 +1,8 @@
 # snowzilla-traffic
 Screen-capping Google Maps during the January 2016 blizzard to see how bad traffic tracks with the storm
 
+<img src="frames/traffic.gif" alt="Traffic animation" />
+
 The morning of the January 2016 blizzard, my husband showed me Google Maps on his phone, with North Carolina's highways lit up with bad traffic: "I guess we know where the storm is!"
 
 When we got home, I wrote a quick, crude [PhantomJS](http://phantomjs.org) script to take regular screenshots of Google Maps for the rest of the day. Then I selected the screenshots I wanted to use and turned them into a GIF using [ImageMagick](http://www.imagemagick.org/script/convert.php).
