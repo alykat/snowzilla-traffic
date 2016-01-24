@@ -5,7 +5,7 @@ Screen-capping Google Maps during the January 2016 blizzard to see how bad traff
 
 The morning of the January 2016 blizzard, my husband showed me Google Maps on his phone, with North Carolina's highways lit up with bad traffic: "I guess we know where the storm is!"
 
-When we got home, I wrote a quick, crude [PhantomJS](http://phantomjs.org) script to take regular screenshots of Google Maps for the rest of the day. Then I selected the screenshots I wanted to use and turned them into a GIF using [ImageMagick](http://www.imagemagick.org/script/convert.php).
+Inspired, I wrote a quick, crude [PhantomJS](http://phantomjs.org) script to take regular screenshots of Google Maps for the rest of the day. Then I selected the screenshots I wanted to use and turned them into a GIF using [ImageMagick](http://www.imagemagick.org/script/convert.php).
 
 The final gif includes screengrabs taken roughly every half-hour. There's a gap between 2 and 4 p.m. (sadly, right about when the storm hits Washington, D.C., in earnest) when my script threw an error and I didn't notice.
 
